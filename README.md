@@ -1,6 +1,8 @@
 # ERStruct
 A MATLAB toolbox for inferring the number of top informative PCs that capture population structure based on genotype information.
 
+> **Python 版本**：参见 [ERStruct Python 实现](https://github.com/ecielyang/ERStruct)。
+
 ## Requirements for Data File
 Data files must be of .mat format. The data matrix must with 0,1,2 and/or NaN (for missing values) entries only, the rows represent individuals and columns represent markers. If there are more than one data files, the data matrix inside must with the same number of rows (try splitting the data files into smaller ones if MATLAB returns an out of memory error).
 
